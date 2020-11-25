@@ -1,6 +1,6 @@
 rule run_parliament2:
   input:
-    BAM=config["input"]
+    BAM=config["input"],
     REF=config["reference"]
   output:
     directory("parliament2")
